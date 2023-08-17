@@ -559,11 +559,11 @@ img {
 
 /* форма */
 
-/* .is-hidden {
+.is-hidden {
     opacity: 0; 
     pointer-events: none; 
     visibility: hidden;
-} */
+}
 
 .main-form-div {
     background-color: #FCFCFC;
@@ -614,9 +614,13 @@ img {
     padding: 0 38px;
 }
 
-.main-form label.main-form-label input:focus {
+.main-form label.main-form-label textarea {
     border: 1px solid rgba(77, 90, 229, 1);
     outline: none;
+}
+
+.main-form label.main-form-label input:focus {
+
 }
 
 .main-form input:focus + svg {
@@ -712,6 +716,7 @@ img {
     line-height: 24px;
     letter-spacing: 0.04em;
     color: #ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .main-form button:hover {
