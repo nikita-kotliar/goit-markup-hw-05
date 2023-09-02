@@ -583,10 +583,10 @@ img {
     background-color: #FCFCFC;
     width: 408px;
     height: 584px;
-    position: fixed;
-    top: 80px;
+    position: absolute;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, -50%) scale(1);
     border-radius: 4px;
     padding: 24px;
     padding-top: 72px;
