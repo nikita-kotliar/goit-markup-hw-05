@@ -601,6 +601,7 @@ img {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 16px;
 }
 
 .main-form {
@@ -660,20 +661,15 @@ img {
     margin-bottom: 4px;
 }
 
-.label-one {
-    margin-top: 16px;
+.first-div {
+    margin-bottom: 8px;
 }
 
-.label-twoo {
-    margin-top: 8px;
+.second-div {
+    margin-bottom: 8px;
 }
-
-.label-three {
-    margin-top: 8px;
-}
-
-.label-four {
-    margin-top: 8px;
+.third-div {
+    margin-bottom: 8px;
 }
 
 .checkbox {
@@ -736,6 +732,7 @@ img {
 }
 
 .close-button {
+    padding: 0;
     width: 24px;
     height: 24px;
     border-radius: 50%;
