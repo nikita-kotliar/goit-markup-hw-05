@@ -623,12 +623,6 @@ img {
     position: relative;
 }
 
-.main-form label {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
 .main-form-span-text {
     font-weight: 400;
     font-size: 12px;
