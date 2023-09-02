@@ -616,13 +616,14 @@ img {
     color: #8e8f99;
     display: block;
     margin-bottom: 4px;
+    position: relative;
 }
 
 .main-form-label .div {
     position: relative;
 }
 
-.main-form label.main-form-label {
+.main-form label {
     display: flex;
     flex-direction: column;
     position: relative;
