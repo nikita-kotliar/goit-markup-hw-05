@@ -616,10 +616,6 @@ img {
     outline: none;
 }
 
-.main-form label.main-form-label input:focus {
-
-}
-
 .main-form input:focus + svg {
     fill: #4D5AE5;
 }
