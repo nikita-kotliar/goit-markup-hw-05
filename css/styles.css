@@ -582,7 +582,7 @@ img {
 .form-content {
     background-color: #FCFCFC;
     width: 408px;
-    height: 584px;
+    min-height: 584px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -735,7 +735,7 @@ img {
     background-color: #404bbf;
 }
 
-.close {
+.close-button {
     width: 24px;
     height: 24px;
     border-radius: 50%;
@@ -748,20 +748,25 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.line {
-    position: absolute;
-    width: 1px;
-    height: 8px;
-    background-color: #2E2F42;
-    border-radius: 30px;
+.close-button:hover {
+    background-color: #404bbf;
+    border: none;
 }
-  
-.line-one {
-    transform: rotate(45deg)
+.close-button:focus {
+    background-color: #404bbf;
+    border: none;
 }
-  
-.line-twoo {
-    transform: rotate(135deg)
+
+.close-button:hover .icon-close {
+    fill: #FFFFFF;
+}
+.close-button:focus .icon-close {
+    fill: #FFFFFF;
+}
+
+.icon-close {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
