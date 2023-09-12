@@ -695,9 +695,12 @@ img {
     margin-bottom: 16px;
 }
 
+.div-checkbox {
+    margin-bottom: 24px;
+}
+
 .checkbox {
     margin-top: 16px;
-    margin-bottom: 24px;
     display: inline-flex;
 }
 
@@ -737,7 +740,8 @@ img {
 }
 
 .main-form button {
-    width: 169px;
+    cursor: pointer;
+    min-width: 169px;
     height: 56px;
     border-radius: 4px;
     background-color: #4D5AE5;
@@ -750,6 +754,7 @@ img {
     letter-spacing: 0.04em;
     color: #ffffff;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-form button:hover {
