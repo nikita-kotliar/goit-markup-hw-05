@@ -617,21 +617,15 @@ img {
     display: block;
     margin-bottom: 4px;
     position: relative;
+    line-height: 14px;
+    font-weight: 400;
 }
 
-.main-form-label .div {
+.label-div .div {
     position: relative;
 }
 
-.main-form-span-text {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.04em;
-    color: #8E8F99;
-}
-
-.main-form label input {
+.label-div input {
     width: 100%;
     height: 40px;
     border-radius: 4px;
@@ -642,16 +636,16 @@ img {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-form-label input:focus {
+.label-div input:focus {
     border-color: #4D5AE5;
 }
 
-.main-form label.main-form-label textarea {
+.label-div textarea {
     border: 1px solid rgba(46, 47, 66, 0.4);
     outline: none;
 }
 
-.main-form label.main-form-label textarea:focus {
+.label-div textarea:focus {
     border-color: #4D5AE5;
 }
 
@@ -659,7 +653,7 @@ img {
     fill: #4D5AE5;
 }
 
-.main-form label textarea::placeholder {
+.label-div textarea::placeholder {
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
@@ -667,7 +661,7 @@ img {
     color: #8E8F99;
 }
 
-.main-form label .comment-text  {
+.label-div .comment-text  {
     width: 360px;
     height: 120px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -676,7 +670,7 @@ img {
     resize: none;
 }
 
-.main-form-label span {
+.label-div span {
     margin-bottom: 4px;
 }
 
@@ -715,7 +709,7 @@ img {
     text-decoration: underline;
 }
 
-.main-form label.checkbox input {
+.label-div.checkbox input {
     width: 16px;
     height: 16px;
     border-radius: 2px;
@@ -723,7 +717,7 @@ img {
     display: inline-flex;
 }
 
-.main-form label svg {
+.label-div svg {
     fill: #000000;
     position: absolute;
     top: 50%;
